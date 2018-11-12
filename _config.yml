@@ -1,0 +1,60 @@
+# Site settings
+title: コンビニ店員アイ
+author: フジ・ナカハラ
+description: >
+  TODO
+url: https://fuji-nakahara.github.io
+baseurl: /ai-a-convenience-store-clerk
+version: v0.0.0
+timezone: Asia/Tokyo
+lang: ja_JP
+
+# Build settings
+markdown: FujiMarkdown
+theme: jekyll-theme-fuji
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# Front Matter defaults
+permalink: none
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: novel
+
+# Theme settings
+homepage: https://fuji-nakahara.github.io/
+repository: fuji-nakahara/ai-a-convenience-store-clerk
+google_analytics: UA-118273401-1
+show_ebooks_from_github_releases: true
+reverse_posts_order: true
+show_excerpts: false
+show_date: false
+date_format: "%Y年%m月%d日"
+
+# SEO
+twitter:
+  username: fuji_nakahara
+
+# Ebook settings
+ebook:
+  file_name: example
+  page_progression_direction: rtl
+
+# Deploy settings
+kakuyomu:
+  work_id:
+narou:
+  ncode:
