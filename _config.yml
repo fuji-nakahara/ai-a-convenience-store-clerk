@@ -2,7 +2,7 @@
 title: コンビニ店員アイ
 author: フジ・ナカハラ
 description: >
-  TODO
+  人手不足で困っていた店長のもとにやってきたのは、ロボットだった
 url: https://fuji-nakahara.github.io
 baseurl: /ai-a-convenience-store-clerk
 version: v0.0.0
@@ -16,14 +16,16 @@ theme: jekyll-theme-fuji
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - package.json
+  - package-lock.json
 
 # Front Matter defaults
 permalink: none
@@ -39,9 +41,9 @@ homepage: https://fuji-nakahara.github.io/
 repository: fuji-nakahara/ai-a-convenience-store-clerk
 google_analytics: UA-118273401-1
 show_ebooks_from_github_releases: true
-reverse_posts_order: true
+reverse_posts_order: false
 show_excerpts: false
-show_date: false
+show_date: true
 date_format: "%Y年%m月%d日"
 
 # SEO
@@ -55,6 +57,6 @@ ebook:
 
 # Deploy settings
 kakuyomu:
-  work_id:
+  work_id: 1177354054887877892
 narou:
-  ncode:
+  ncode: N7605FE
