@@ -5,7 +5,7 @@ description: >
   人手不足で困っていた店長のもとにやってきたのは、ロボットだった
 url: https://fuji-nakahara.github.io
 baseurl: /ai-a-convenience-store-clerk
-version: v0.0.0
+version: v0.1.0
 timezone: Asia/Tokyo
 lang: ja_JP
 
