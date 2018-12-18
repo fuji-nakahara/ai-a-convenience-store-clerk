@@ -1,5 +1,9 @@
 ---
 title: 1 ケイ氏のため息
+kakuyomu:
+  url: https://kakuyomu.jp/works/1177354054887877892/episodes/1177354054887878604
+narou:
+  url: https://syosetu.com/usernoveldatamanage/top/ncode/1347471/noveldataid/11382322/
 ---
 
 「店員、おひとついかがですか」
