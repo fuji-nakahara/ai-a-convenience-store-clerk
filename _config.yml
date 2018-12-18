@@ -52,7 +52,7 @@ twitter:
 
 # Ebook settings
 ebook:
-  file_name: example
+  file_name: ai-a-convenience-store-clerk
   page_progression_direction: rtl
 
 # Deploy settings
