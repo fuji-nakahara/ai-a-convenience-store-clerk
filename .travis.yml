@@ -16,7 +16,8 @@ script:
 
 deploy:
   - provider: pages
-    github-token: # Run `travis encrypt YOUR_TOKEN`
+    github-token:
+      secure: "ouRTVv53gZELo6tPJwKm+zZv3Zi4rpIw2kE3S+IfL9cpxMAYxWT1bziIjJ0/UNgjZ2iUWkez4t8tDDYe9NKBHUU2wYhxpYCk7FvZTJ9CI3uL7p5oKaBcXDcLFfyjz9JW0/qANMr+9atj6zddBXmeJh5F/2kTRF5Ap0NgwlpsSEW1NPd66Zr0xxxFp8l9i4bW30IqWt2iGGUQHVUsR/FJ7Gbn1ZIV73WfBiis910rk2g2euDZ0SnE1fR7LMA1qwrvuW0/o5XxsL/vvqnJyAisEElH75qwVhvI9LD5rew7sGsZzTl8yV7gPEg0erc5J5ZGUd8i0ppoYT/OZ331sN++utA8LOWl6X4XEvvHDHz4HrZYRrl9hbqpuh5QIcugAtGFBjkpXTHaakedpb5wnUv5YyQXmfCCb/ePwBjthpus4zzjS857x7rGRzaTl0OkEyvjNrpqo/gajMzv1mgVLJwH5Ewcnmz+x5UtImsvBUoOVcFnNCu9Sz4NnDVAvtbRoEamZq7KXdulWndyRFo6DTjJ3wXo7dkX0DLDG0DhtYOdgBeKgk5cOKpEIwF0Q8WkD5sh7UH8xptQ7Om+2ht3fRPEme2rzo7cqPD6ajxaCIzZ0MQWTmGLpOOUV9opi/crLTxxyG/j/syjkpBmmj3KXfGa1jtA6uEZqhQYAoq7tnSUOU4="
     skip-cleanup: true
     local-dir: _site
     target_branch: gh-pages
@@ -24,7 +25,7 @@ deploy:
       branch: master
   - provider: releases
     api_key:
-      secure: # Run `travis encrypt YOUR_TOKEN`
+      secure: "ouRTVv53gZELo6tPJwKm+zZv3Zi4rpIw2kE3S+IfL9cpxMAYxWT1bziIjJ0/UNgjZ2iUWkez4t8tDDYe9NKBHUU2wYhxpYCk7FvZTJ9CI3uL7p5oKaBcXDcLFfyjz9JW0/qANMr+9atj6zddBXmeJh5F/2kTRF5Ap0NgwlpsSEW1NPd66Zr0xxxFp8l9i4bW30IqWt2iGGUQHVUsR/FJ7Gbn1ZIV73WfBiis910rk2g2euDZ0SnE1fR7LMA1qwrvuW0/o5XxsL/vvqnJyAisEElH75qwVhvI9LD5rew7sGsZzTl8yV7gPEg0erc5J5ZGUd8i0ppoYT/OZ331sN++utA8LOWl6X4XEvvHDHz4HrZYRrl9hbqpuh5QIcugAtGFBjkpXTHaakedpb5wnUv5YyQXmfCCb/ePwBjthpus4zzjS857x7rGRzaTl0OkEyvjNrpqo/gajMzv1mgVLJwH5Ewcnmz+x5UtImsvBUoOVcFnNCu9Sz4NnDVAvtbRoEamZq7KXdulWndyRFo6DTjJ3wXo7dkX0DLDG0DhtYOdgBeKgk5cOKpEIwF0Q8WkD5sh7UH8xptQ7Om+2ht3fRPEme2rzo7cqPD6ajxaCIzZ0MQWTmGLpOOUV9opi/crLTxxyG/j/syjkpBmmj3KXfGa1jtA6uEZqhQYAoq7tnSUOU4="
     skip_cleanup: true
     file:
       - _ebook/ai-a-convenience-store-clerk.epub
