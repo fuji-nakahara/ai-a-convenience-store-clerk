@@ -1,6 +1,9 @@
 ---
 title: 2 ジェイからの電話
 kakuyomu:
+  url: https://kakuyomu.jp/works/1177354054887877892/episodes/1177354054887889364
+narou:
+  url: https://syosetu.com/usernoveldatamanage/top/ncode/1347471/noveldataid/11388016/
 ---
 
 「夜分遅くに恐れ入ります。少しお時間よろしいでしょうか。けっして悪い話ではございません」
