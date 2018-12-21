@@ -41,7 +41,7 @@ homepage: https://fuji-nakahara.github.io/
 repository: fuji-nakahara/ai-a-convenience-store-clerk
 google_analytics: UA-118273401-1
 show_ebooks_from_github_releases: true
-reverse_posts_order: false
+reverse_posts_order: true
 show_excerpts: false
 show_date: true
 date_format: "%Y年%m月%d日"
