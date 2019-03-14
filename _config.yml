@@ -3,7 +3,7 @@ title: コンビニ店員アイ
 author: フジ・ナカハラ
 description: >
   人手不足で困っていた店長のもとにやってきたのは、ロボットだった
-url: https://fuji-nakahara.github.io
+url: https://fuji-nakahara.page
 baseurl: /ai-a-convenience-store-clerk
 version: v1.0.0
 timezone: Asia/Tokyo
@@ -37,7 +37,7 @@ defaults:
       layout: novel
 
 # Theme settings
-homepage: https://fuji-nakahara.github.io/
+homepage: https://fuji-nakahara.page/
 repository: fuji-nakahara/ai-a-convenience-store-clerk
 google_analytics: UA-118273401-1
 show_ebooks_from_github_releases: true
